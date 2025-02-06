@@ -8,6 +8,15 @@
   height: auto;
 }
 
+.menu-item-title {
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.menu-item-price {
+  font-weight: 600;
+}
+
 .menu-background {
   background-color: #fff4e4;
 }
@@ -20,7 +29,8 @@
 .menu-item-button {
   background-color: #b93535 !important;
   color: #fff !important;
-
+  border-radius: 25px !important;
+  padding: 10px 20px !important;
 }
 
 .menu-header-title {

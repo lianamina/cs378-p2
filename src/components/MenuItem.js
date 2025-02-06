@@ -22,10 +22,10 @@ const MenuItem = ({ title, description, imageName, price }) => {
                     {/* Text Section */}
                     <div className="col-8 col-sm-8 col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">{title}</h5>
+                        <h5 className="card-title menu-item-title">{title}</h5>
                             <p className="card-text">{description}</p>
                             <div className="d-flex justify-content-between align-items-center">
-                                <p className="card-text font-weight-bold">${price.toFixed(2)}</p>
+                                <p className="menu-item-price">${price.toFixed(2)}</p>
                                 <button className="menu-item-button btn">Add</button>
                             </div>
                         </div>
