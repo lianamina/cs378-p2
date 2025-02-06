@@ -8,7 +8,7 @@ const MenuHeader = ({ title, logo, description, tagline }) => {
           {/*Logo*/}
           <div className="col-md-3 col-12 mb-3 d-flex justify-content-center">
             <img
-              src={`/images/${logo}`}
+              src={`${process.env.PUBLIC_URL}/images/${logo}`}
               className="logo-size"
               alt={description}
             />

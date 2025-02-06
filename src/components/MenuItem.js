@@ -14,7 +14,7 @@ const MenuItem = ({ title, description, imageName, price }) => {
                     {/* Image Section */}
                     <div className="col-4 col-sm-4 col-md-4">
                         <img
-                            src={`/images/${imageName}`}
+                            src={`${process.env.PUBLIC_URL}/images/${imageName}`}
                             className="img-fluid rounded-start"
                             alt={title}
                         />
